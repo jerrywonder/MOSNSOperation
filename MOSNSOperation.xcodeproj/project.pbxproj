@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04CECC591AF3C6A70062C925 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CECC581AF3C6A70062C925 /* main.m */; };
+		04CECC5C1AF3C6A70062C925 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CECC5B1AF3C6A70062C925 /* AppDelegate.m */; };
+		04CECC641AF3C6A70062C925 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04CECC631AF3C6A70062C925 /* Images.xcassets */; };
+		04CECC731AF3C6A70062C925 /* MOSNSOperationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CECC721AF3C6A70062C925 /* MOSNSOperationTests.m */; };
+		04CECC7E1AF3C7D20062C925 /* MOSVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CECC7D1AF3C7D20062C925 /* MOSVC.m */; };
+		04CECC811AF3C8330062C925 /* UIColor+Colours.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CECC801AF3C8330062C925 /* UIColor+Colours.m */; };
+		04CECC831AF3C8590062C925 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 04CECC821AF3C8590062C925 /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04CECC6D1AF3C6A70062C925 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 04CECC4B1AF3C6A70062C925 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 04CECC521AF3C6A70062C925;
+			remoteInfo = MOSNSOperation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04CECC531AF3C6A70062C925 /* MOSNSOperation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MOSNSOperation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CECC571AF3C6A70062C925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CECC581AF3C6A70062C925 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04CECC5A1AF3C6A70062C925 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		04CECC5B1AF3C6A70062C925 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		04CECC631AF3C6A70062C925 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		04CECC6C1AF3C6A70062C925 /* MOSNSOperationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MOSNSOperationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		04CECC711AF3C6A70062C925 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CECC721AF3C6A70062C925 /* MOSNSOperationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MOSNSOperationTests.m; sourceTree = "<group>"; };
+		04CECC7C1AF3C7D20062C925 /* MOSVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOSVC.h; sourceTree = "<group>"; };
+		04CECC7D1AF3C7D20062C925 /* MOSVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOSVC.m; sourceTree = "<group>"; };
+		04CECC7F1AF3C8330062C925 /* UIColor+Colours.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Colours.h"; sourceTree = "<group>"; };
+		04CECC801AF3C8330062C925 /* UIColor+Colours.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Colours.m"; sourceTree = "<group>"; };
+		04CECC821AF3C8590062C925 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		04CECC501AF3C6A70062C925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CECC691AF3C6A70062C925 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		04CECC4A1AF3C6A70062C925 = {
+			isa = PBXGroup;
+			children = (
+				04CECC821AF3C8590062C925 /* Default-568h@2x.png */,
+				04CECC551AF3C6A70062C925 /* MOSNSOperation */,
+				04CECC6F1AF3C6A70062C925 /* MOSNSOperationTests */,
+				04CECC541AF3C6A70062C925 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		04CECC541AF3C6A70062C925 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04CECC531AF3C6A70062C925 /* MOSNSOperation.app */,
+				04CECC6C1AF3C6A70062C925 /* MOSNSOperationTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		04CECC551AF3C6A70062C925 /* MOSNSOperation */ = {
+			isa = PBXGroup;
+			children = (
+				04CECC841AF3C8640062C925 /* category */,
+				04CECC5A1AF3C6A70062C925 /* AppDelegate.h */,
+				04CECC5B1AF3C6A70062C925 /* AppDelegate.m */,
+				04CECC631AF3C6A70062C925 /* Images.xcassets */,
+				04CECC561AF3C6A70062C925 /* Supporting Files */,
+				04CECC7C1AF3C7D20062C925 /* MOSVC.h */,
+				04CECC7D1AF3C7D20062C925 /* MOSVC.m */,
+			);
+			path = MOSNSOperation;
+			sourceTree = "<group>";
+		};
+		04CECC561AF3C6A70062C925 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04CECC571AF3C6A70062C925 /* Info.plist */,
+				04CECC581AF3C6A70062C925 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04CECC6F1AF3C6A70062C925 /* MOSNSOperationTests */ = {
+			isa = PBXGroup;
+			children = (
+				04CECC721AF3C6A70062C925 /* MOSNSOperationTests.m */,
+				04CECC701AF3C6A70062C925 /* Supporting Files */,
+			);
+			path = MOSNSOperationTests;
+			sourceTree = "<group>";
+		};
+		04CECC701AF3C6A70062C925 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				04CECC711AF3C6A70062C925 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		04CECC841AF3C8640062C925 /* category */ = {
+			isa = PBXGroup;
+			children = (
+				04CECC7F1AF3C8330062C925 /* UIColor+Colours.h */,
+				04CECC801AF3C8330062C925 /* UIColor+Colours.m */,
+			);
+			name = category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		04CECC521AF3C6A70062C925 /* MOSNSOperation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CECC761AF3C6A70062C925 /* Build configuration list for PBXNativeTarget "MOSNSOperation" */;
+			buildPhases = (
+				04CECC4F1AF3C6A70062C925 /* Sources */,
+				04CECC501AF3C6A70062C925 /* Frameworks */,
+				04CECC511AF3C6A70062C925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MOSNSOperation;
+			productName = MOSNSOperation;
+			productReference = 04CECC531AF3C6A70062C925 /* MOSNSOperation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		04CECC6B1AF3C6A70062C925 /* MOSNSOperationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 04CECC791AF3C6A70062C925 /* Build configuration list for PBXNativeTarget "MOSNSOperationTests" */;
+			buildPhases = (
+				04CECC681AF3C6A70062C925 /* Sources */,
+				04CECC691AF3C6A70062C925 /* Frameworks */,
+				04CECC6A1AF3C6A70062C925 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				04CECC6E1AF3C6A70062C925 /* PBXTargetDependency */,
+			);
+			name = MOSNSOperationTests;
+			productName = MOSNSOperationTests;
+			productReference = 04CECC6C1AF3C6A70062C925 /* MOSNSOperationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		04CECC4B1AF3C6A70062C925 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = JerryWonder;
+				TargetAttributes = {
+					04CECC521AF3C6A70062C925 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					04CECC6B1AF3C6A70062C925 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 04CECC521AF3C6A70062C925;
+					};
+				};
+			};
+			buildConfigurationList = 04CECC4E1AF3C6A70062C925 /* Build configuration list for PBXProject "MOSNSOperation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 04CECC4A1AF3C6A70062C925;
+			productRefGroup = 04CECC541AF3C6A70062C925 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				04CECC521AF3C6A70062C925 /* MOSNSOperation */,
+				04CECC6B1AF3C6A70062C925 /* MOSNSOperationTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		04CECC511AF3C6A70062C925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CECC641AF3C6A70062C925 /* Images.xcassets in Resources */,
+				04CECC831AF3C8590062C925 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CECC6A1AF3C6A70062C925 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		04CECC4F1AF3C6A70062C925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CECC7E1AF3C7D20062C925 /* MOSVC.m in Sources */,
+				04CECC5C1AF3C6A70062C925 /* AppDelegate.m in Sources */,
+				04CECC591AF3C6A70062C925 /* main.m in Sources */,
+				04CECC811AF3C8330062C925 /* UIColor+Colours.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		04CECC681AF3C6A70062C925 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04CECC731AF3C6A70062C925 /* MOSNSOperationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		04CECC6E1AF3C6A70062C925 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 04CECC521AF3C6A70062C925 /* MOSNSOperation */;
+			targetProxy = 04CECC6D1AF3C6A70062C925 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		04CECC741AF3C6A70062C925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		04CECC751AF3C6A70062C925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		04CECC771AF3C6A70062C925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MOSNSOperation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		04CECC781AF3C6A70062C925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MOSNSOperation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		04CECC7A1AF3C6A70062C925 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MOSNSOperationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOSNSOperation.app/MOSNSOperation";
+			};
+			name = Debug;
+		};
+		04CECC7B1AF3C6A70062C925 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MOSNSOperationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MOSNSOperation.app/MOSNSOperation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		04CECC4E1AF3C6A70062C925 /* Build configuration list for PBXProject "MOSNSOperation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CECC741AF3C6A70062C925 /* Debug */,
+				04CECC751AF3C6A70062C925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		04CECC761AF3C6A70062C925 /* Build configuration list for PBXNativeTarget "MOSNSOperation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CECC771AF3C6A70062C925 /* Debug */,
+				04CECC781AF3C6A70062C925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		04CECC791AF3C6A70062C925 /* Build configuration list for PBXNativeTarget "MOSNSOperationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				04CECC7A1AF3C6A70062C925 /* Debug */,
+				04CECC7B1AF3C6A70062C925 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 04CECC4B1AF3C6A70062C925 /* Project object */;
+}
